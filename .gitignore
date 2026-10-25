@@ -1,0 +1,40 @@
+# Java bytecode and JVM diagnostics
+*.class
+hs_err_pid*
+replay_pid*
+*.hprof
+
+# Gradle and Maven caches / build output, including subprojects
+.gradle/
+.m2/
+build/
+target/
+
+# Keep source packages that happen to be named build or target
+!**/src/main/**/build/
+!**/src/test/**/build/
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# IntelliJ IDEA local project files and compiler output
+.idea/
+*.iml
+*.ipr
+*.iws
+/out/
+
+# Runtime logs in the project root
+/logs/
+/*.log
+
+# Local environment configuration; retain example files
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+
+# Operating system metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
